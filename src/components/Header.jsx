@@ -14,10 +14,10 @@ const Header = () => {
             <h1 className='text-base font-bold '>Büşra</h1>
         </div>
         <div className='flex gap-8 '>
-            <Link href={"#"}><span className='text-[#C778DD]'>#</span><span className='text-[#ABB2BF] hover:text-white'>home</span></Link>
-            <Link href={"#"}><span className='text-[#C778DD]'>#</span><span className='text-[#ABB2BF] hover:text-white'>works</span></Link>
-            <Link href={"#"}><span className='text-[#C778DD]'>#</span><span className='text-[#ABB2BF] hover:text-white'>about-me</span></Link>
-            <Link href={"#"}><span className='text-[#C778DD]'>#</span><span className='text-[#ABB2BF] hover:text-white'>contact</span></Link>
+            <Link href={"/home"}><span className='text-[#C778DD]'>#</span><span className='text-[#ABB2BF] hover:text-white'>home</span></Link>
+            <Link href={"/works"}><span className='text-[#C778DD]'>#</span><span className='text-[#ABB2BF] hover:text-white'>works</span></Link>
+            <Link href={"/about-me"}><span className='text-[#C778DD]'>#</span><span className='text-[#ABB2BF] hover:text-white'>about-me</span></Link>
+            <Link href={"/contact"}><span className='text-[#C778DD]'>#</span><span className='text-[#ABB2BF] hover:text-white'>contact</span></Link>
         </div>
     </div>
   )
