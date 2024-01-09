@@ -38,7 +38,7 @@ const Quote = () => {
           />
         </svg>
       </div>
-      <div class="w-[162px] h-[63px] p-4 border absolute right-0 border-gray-400 justify-start items-start gap-2.5 inline-flex">
+      <div class="w-[172px] h-[63px] p-4 border absolute bottom-[-59px] right-0 border-gray-400 justify-start items-start gap-2.5 inline-flex">
         <div class="text-white text-2xl font-normal font-['Fira Code']">
           - Dr. Who
         </div>

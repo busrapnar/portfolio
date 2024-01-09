@@ -75,10 +75,15 @@ const HomePage = () => {
             <div className="absolute top-44 left-52 ">
               <Dots></Dots>
             </div>
+            <div className="flex flex-col gap-5 relative">
+            <div className="w-[86px] h-[86px] border border-gray-400 absolute left-60 top-4" />
+            <div className="w-[52px] h-[52px] border border-gray-400 absolute top-[269px] left-[329px]" />
+            </div>
+            
           </div>
           <div className="flex gap-x-4">
             <div>
-              <SkillsCard>
+              <SkillsCard title={"Languages"}>
                 <div className="px-2 flex-col justify-start items-start gap-2 flex">
                   <div class="justify-start items-start gap-2 inline-flex">
                     <Ticket>TypeScript</Ticket>
@@ -100,7 +105,7 @@ const HomePage = () => {
               </SkillsCard>
             </div>
             <div className="flex flex-col gap-y-2">
-              <SkillsCard>
+              <SkillsCard title={"Databases"}>
                 <div className="px-2 flex-col justify-start items-start gap-2 flex">
                   <div class="justify-start items-start gap-2 inline-flex">
                     <Ticket>TypeScript</Ticket>
@@ -119,7 +124,7 @@ const HomePage = () => {
                   </div>
                 </div>
               </SkillsCard>
-              <SkillsCard>
+              <SkillsCard title={"Other"}>
                 <div className="px-2 flex-col justify-start items-start gap-2 flex">
                   <div class="justify-start items-start gap-2 inline-flex">
                     <Ticket>TypeScript</Ticket>
@@ -134,7 +139,7 @@ const HomePage = () => {
               </SkillsCard>
             </div>
             <div className="flex flex-col gap-y-2">
-              <SkillsCard>
+              <SkillsCard title={"Tools"}>
                 <div className="px-2 flex-col justify-start items-start gap-2 flex">
                   <div class="justify-start items-start gap-2 inline-flex">
                     <Ticket>TypeScript</Ticket>
@@ -142,6 +147,21 @@ const HomePage = () => {
                     <Ticket>JavaScript</Ticket>
                   </div>
 
+                  <div class="justify-start items-start gap-2 inline-flex">
+                    <Ticket>TypeScript</Ticket>
+                    <Ticket>Lua</Ticket>
+                    <Ticket>JavaScript</Ticket>
+                  </div>
+                  <div class="justify-start items-start gap-2 inline-flex">
+                    <Ticket>TypeScript</Ticket>
+                    <Ticket>Lua</Ticket>
+                    <Ticket>JavaScript</Ticket>
+                  </div>
+                  <div class="justify-start items-start gap-2 inline-flex">
+                    <Ticket>TypeScript</Ticket>
+                    <Ticket>Lua</Ticket>
+                    <Ticket>JavaScript</Ticket>
+                  </div>
                   <div class="justify-start items-start gap-2 inline-flex">
                     <Ticket>TypeScript</Ticket>
                     <Ticket>Lua</Ticket>
@@ -149,29 +169,18 @@ const HomePage = () => {
                   </div>
                 </div>
               </SkillsCard>
-              <SkillsCard>
+              <SkillsCard title={"Framework"}>
                 <div className="px-2 flex-col justify-start items-start gap-2 flex">
                   <div class="justify-start items-start gap-2 inline-flex">
                     <Ticket>TypeScript</Ticket>
                     <Ticket>Lua</Ticket>
                     <Ticket>JavaScript</Ticket>
                   </div>
-
                   <div class="justify-start items-start gap-2 inline-flex">
                     <Ticket>TypeScript</Ticket>
                     <Ticket>Lua</Ticket>
                     <Ticket>JavaScript</Ticket>
                   </div>
-                </div>
-              </SkillsCard>
-              <SkillsCard>
-                <div className="px-2 flex-col justify-start items-start gap-2 flex">
-                  <div class="justify-start items-start gap-2 inline-flex">
-                    <Ticket>TypeScript</Ticket>
-                    <Ticket>Lua</Ticket>
-                    <Ticket>JavaScript</Ticket>
-                  </div>
-
                   <div class="justify-start items-start gap-2 inline-flex">
                     <Ticket>TypeScript</Ticket>
                     <Ticket>Lua</Ticket>

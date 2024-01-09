@@ -16,7 +16,7 @@ const Description = () => {
     </div>
     <div className='flex flex-col gap-6'>
     <div className='w-[463px] h-14 text-[#ABB2BF]'>
-        <p>He crafts responsive websites where technologies meet creativity</p>
+        <p>She crafts responsive websites where technologies meet creativity</p>
     </div>
     <div >
       <Button>{"Contact Me !!"}</Button>
