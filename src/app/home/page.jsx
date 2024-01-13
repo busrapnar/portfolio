@@ -25,7 +25,7 @@ const HomePage = () => {
       </div>
       <div>
         <Title title={"projects"}></Title>
-        <div className="grid tablet:grid-cols-3 grid-cols-1 gap-10 mt-10">
+        <div className="grid laptop:grid-cols-3 grid-cols-1 gap-10 mt-10">
           <ProjectCard
             image={"/ornek.png"}
             content={"Minecraft servers hosting Minecraft servers hosting"}
@@ -65,7 +65,7 @@ const HomePage = () => {
       <div>
         <Title title={"skills"}></Title>
         <div className="flex justify-between relative">
-          <div>
+          <div >
             <div className="absolute top-12 left-8">
               <Dots></Dots>
             </div>
